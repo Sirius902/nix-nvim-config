@@ -112,6 +112,7 @@
           lua-language-server
           nixd
           stylua
+          rust-analyzer
         ];
         kickstart-debug = [
           delve
@@ -143,7 +144,7 @@
           cmp_luasnip
           cmp-nvim-lsp
           cmp-path
-          tokyonight-nvim
+          gruvbox-nvim
           todo-comments-nvim
           mini-nvim
           nvim-treesitter.withAllGrammars
