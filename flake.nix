@@ -113,6 +113,7 @@
           nixd
           stylua
           rust-analyzer
+          zls
         ];
         kickstart-debug = [
           delve

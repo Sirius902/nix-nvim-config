@@ -671,6 +671,7 @@ require('nixCatsUtils.lazyCat').setup(pluginList, nixLazyPath, {
       -- servers.gopls = {},
       -- servers.pyright = {},
       servers.rust_analyzer = {}
+      servers.zls = {}
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
       --
       -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -958,7 +959,7 @@ require('nixCatsUtils.lazyCat').setup(pluginList, nixLazyPath, {
     opts = {
       -- NOTE: nixCats: use lazyAdd to only set these 2 options if nix wasnt involved.
       -- because nix already ensured they were installed.
-      ensure_installed = require('nixCatsUtils').lazyAdd { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc', 'rust' },
+      ensure_installed = require('nixCatsUtils').lazyAdd { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc', 'rust', 'zig' },
       auto_install = require('nixCatsUtils').lazyAdd(true, false),
 
       highlight = {
