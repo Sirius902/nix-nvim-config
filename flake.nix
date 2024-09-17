@@ -156,6 +156,7 @@
           #     lua
           #   ]
           # ))
+          nvim-treesitter-context
         ];
         kickstart-debug = [
           nvim-dap
