@@ -3,11 +3,11 @@
     "nixCats": {
       "locked": {
         "dir": "nix",
-        "lastModified": 1723600153,
-        "narHash": "sha256-pl2fsDpJGZpOq+BQS7Gxnl6kxyVVmHW7I//UUfIgOYQ=",
+        "lastModified": 1726523552,
+        "narHash": "sha256-RqOJeQlX2+H5j+RdFzTc7QSf4/qK4Oe01KpE2713Cws=",
         "owner": "BirdeeHub",
         "repo": "nixCats-nvim",
-        "rev": "df8e6a6bee79e68feea4a873bc5b6247382cd157",
+        "rev": "2b455dab0eee7484ce7c956dccda0a7c2111c18b",
         "type": "github"
       },
       "original": {
@@ -19,16 +19,16 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1723362943,
-        "narHash": "sha256-dFZRVSgmJkyM0bkPpaYRtG/kRMRTorUIDj8BxoOt1T4=",
+        "lastModified": 1726481836,
+        "narHash": "sha256-MWTBH4dd5zIz2iatDb8IkqSjIeFum9jAqkFxgHLdzO4=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "a58bc8ad779655e790115244571758e8de055e3d",
+        "rev": "20f9370d5f588fb8c72e844c54511cab054b5f40",
         "type": "github"
       },
       "original": {
         "owner": "nixos",
-        "ref": "nixos-unstable",
+        "ref": "nixpkgs-unstable",
         "repo": "nixpkgs",
         "type": "github"
       }
