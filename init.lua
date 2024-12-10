@@ -670,6 +670,12 @@ require('nixCatsUtils.lazyCat').setup(pluginList, nixLazyPath, {
       -- servers.clangd = {},
       -- servers.gopls = {},
       -- servers.pyright = {},
+      servers.cssls = {}
+      servers.emmet_language_server = {}
+      servers.jinja_lsp = {}
+      servers.superhtml = {}
+      servers.htmx = {}
+      servers.ts_ls = {}
       servers.rust_analyzer = {}
       servers.zls = {}
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs

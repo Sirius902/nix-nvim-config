@@ -118,6 +118,12 @@
           nixd
           stylua
 
+          vscode-langservers-extracted
+          emmet-language-server
+          superhtml
+          typescript-language-server
+          htmx-lsp
+
           (pkgs.fenix.complete.withComponents [
             "cargo"
             "clippy"
