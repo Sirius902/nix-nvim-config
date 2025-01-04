@@ -912,7 +912,7 @@ require('nixCatsUtils.lazyCat').setup(pluginList, nixLazyPath, {
   },
 
   {
-    'ellison/gruvbox.nvim',
+    'ellisonleao/gruvbox.nvim',
     priority = 1000,
     init = function()
       vim.cmd.colorscheme 'gruvbox'
