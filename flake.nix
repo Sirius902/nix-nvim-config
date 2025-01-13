@@ -134,6 +134,9 @@
           rust-analyzer-nightly
 
           zls
+
+          clang
+          clang-tools
         ];
         kickstart-debug = [
           delve
