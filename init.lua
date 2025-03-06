@@ -669,7 +669,7 @@ require('nixCatsUtils.lazyCat').setup(pluginList, nixLazyPath, {
       local servers = {}
       servers.clangd = {}
       -- servers.gopls = {}
-      -- servers.pyright = {}
+      servers.pyright = {}
       servers.cssls = {}
       servers.emmet_language_server = {}
       servers.jinja_lsp = {}
